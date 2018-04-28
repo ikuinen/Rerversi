@@ -40,6 +40,7 @@ Widget::Widget(QWidget *parent) :
             {
                 TimeNum = 16;
                 this->ChangeRole();
+                env.switch_to_next_player();
             }
         }
 
@@ -106,7 +107,8 @@ void Widget::mousePressEvent(QMouseEvent *qme)
         {
             flag++;
             env.step(action);
-            LeftTimer.start();
+           // LeftTimer.start();
+
             //改变角色
             this->ChangeRole();
 
@@ -195,6 +197,7 @@ void Widget::ChangeRole()
 
     if(Role == White) //机器下子
     {
+        //AiPlay1();
         this->mTimer.start(1000); //毫秒为单位
     }
 
@@ -365,8 +368,10 @@ int Widget::JudgeRule(int x, int y, void *reversi, ReversiStatus currentRole, bo
 void Widget::AiPlay1()
 {
     this->mTimer.stop();
+   //LeftTimer.start();
     int action = player->action(env);
     env.step(action);
+
     JudgeRule(action % 8, action / 8, Reversi, White, true);
     this->ChangeRole();
     CanDrop();
