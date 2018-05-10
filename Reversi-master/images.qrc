@@ -3,12 +3,8 @@
         <file>images/chessboard.png</file>
         <file>images/logo.png</file>
         <file>images/baiqi.tga</file>
-        <file>images/begin.png</file>
-        <file>images/exit.png</file>
         <file>images/goback.png</file>
         <file>images/heiqi.tga</file>
-        <file>images/regret.png</file>
-        <file>images/stop.png</file>
         <file>sounds/clock.wav</file>
         <file>sounds/loop.wav</file>
         <file>sounds/lose.wav</file>
@@ -17,5 +13,11 @@
         <file>images/youwin.png</file>
         <file>images/youlose.jpg</file>
         <file>images/draw.png</file>
+        <file>images/lose.png</file>
+        <file>images/quit.png</file>
+        <file>images/pause.png</file>
+        <file>images/restart.png</file>
+        <file>images/stop.png</file>
+        <file>images/regret.png</file>
     </qresource>
 </RCC>

@@ -117,10 +117,10 @@
   <widget class="QToolButton" name="Start">
    <property name="geometry">
     <rect>
-     <x>60</x>
-     <y>590</y>
-     <width>121</width>
-     <height>71</height>
+     <x>70</x>
+     <y>610</y>
+     <width>101</width>
+     <height>51</height>
     </rect>
    </property>
    <property name="text">
@@ -128,7 +128,7 @@
    </property>
    <property name="icon">
     <iconset resource="images.qrc">
-     <normaloff>:/images/begin.png</normaloff>:/images/begin.png</iconset>
+     <normaloff>:/images/restart.png</normaloff>:/images/restart.png</iconset>
    </property>
    <property name="iconSize">
     <size>
@@ -154,7 +154,7 @@
    </property>
    <property name="icon">
     <iconset resource="images.qrc">
-     <normaloff>:/images/exit.png</normaloff>:/images/exit.png</iconset>
+     <normaloff>:/images/quit.png</normaloff>:/images/quit.png</iconset>
    </property>
    <property name="iconSize">
     <size>
@@ -218,7 +218,7 @@
    </property>
    <property name="icon">
     <iconset resource="images.qrc">
-     <normaloff>:/images/stop.png</normaloff>:/images/stop.png</iconset>
+     <normaloff>:/images/pause.png</normaloff>:/images/pause.png</iconset>
    </property>
    <property name="iconSize">
     <size>
@@ -262,7 +262,7 @@
     <string/>
    </property>
    <property name="pixmap">
-    <pixmap resource="images.qrc">:/images/youlose.jpg</pixmap>
+    <pixmap resource="images.qrc">:/images/lose.png</pixmap>
    </property>
    <property name="scaledContents">
     <bool>true</bool>
